@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mediavision01.personal_blood_info.Blood_Doner_Status">
+
+    <Spinner
+        android:id="@+id/donarId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+    </Spinner>
+    <Button
+        android:id="@+id/bloodDonateDateId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="blood donate date"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_gravity="right"
+        android:id="@+id/bloodDonateSaveId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

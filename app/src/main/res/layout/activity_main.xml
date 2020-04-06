@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardCornerRadius="4dp"
+    android:background="#fadede"
+    tools:context="com.example.mediavision01.personal_blood_info.MainActivity">
+<android.support.v7.widget.SearchView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/searchView">
+
+</android.support.v7.widget.SearchView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="50dp">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewUsers"
+        android:layout_width="match_parent"
+        android:onClick="RecyclerViewInit"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="add"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:textColor="#fff"-->
+        <!--android:background="#e71616"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:onClick="addNewEmployee"/>-->
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+       android:src="@drawable/ic_add_black_24dp"
+        android:layout_margin="10dp"
+        android:textColor="#fff"
+        android:background="@drawable/shape"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="addNewEmployee"/>
+
+
+</RelativeLayout>
